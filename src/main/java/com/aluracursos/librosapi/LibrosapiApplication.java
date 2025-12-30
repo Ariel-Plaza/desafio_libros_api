@@ -17,7 +17,6 @@ public class LibrosapiApplication implements CommandLineRunner {
         //  Principal principal = new Principal();
         //        principal.muestraElMenu();
         Principal principal = new Principal();
-        principal.mostraMensaje();
         principal.conectarApi();
 //        System.out.println(principal);
     }
