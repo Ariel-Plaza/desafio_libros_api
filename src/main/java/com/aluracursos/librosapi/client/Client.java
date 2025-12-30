@@ -14,7 +14,7 @@ public class Client {
                             //nuevo construcor
                             newBuilder()
                     //permite redirecciones
-                    .followRedirects(HttpClient.Redirect.ALWAYS)
+                    .followRedirects(HttpClient.Redirect.NORMAL)
                     .build();
             //Clase que representa la petición/solicitud HTTP que vas a enviar
             HttpRequest request = HttpRequest.
